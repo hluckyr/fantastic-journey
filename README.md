@@ -1,99 +1,56 @@
-# fantastic-journey
-# Module 01 Mini-Project: Landing Page
+# Module 02 Mini-Project: CSS Snippet Cheat Sheet
 
-In this mini-project, you will build a landing page using HTML and CSS. While you will be responsible for your own landing page, you will work in a group to brainstorm and share ideas.
+In this activity, you will work with a group to build a webpage that will hold a collection of CSS snippets. What better way to learn CSS than to build a knowledge base of CSS?
 
 ## Instructions
 
-Work in your group to implement the following user stories:
+The completed application should meet the following criteria:
 
-* As a client, I want to view a single webpage that collects a visitor's contact information.
+* As a user, I can view a collection of labeled CSS snippets in a responsive grid.
 
-* As a client, I want the landing page to have a header and footer.
+* As a user, I can easily identify these CSS snippets by their headings.
 
-* As a client, I want the landing page to have an image with a caption.
+* As a user, I can highlight a code snippet by clicking on it.
 
-* As a client, I want the landing page to have a contact form.
+* As a user, I can view my application on a mobile device as well as a desktop.
 
-* As a client, I want the landing page to have a polished and accessible UI.
+### Specifications
 
-## Acceptance Criteria
+* Must use semantic HTML elements and proper indentation.
 
-* It's done when the page uses semantic HTML elements.
+* Use CSS variables to maintain clean and reusable values for a color scheme.
 
-* It's done when the page uses universal, element, and class selectors in CSS.
+* Use flexbox and media queries to create a responsive grid layout.
 
-* It's done when the page features at least three colors in the design.
+* Each CSS snippet should have a card-like layout with the CSS syntax wrapped in an [HTML pre element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre).
 
-* It's done when the page uses a single font and font family for all text.
+* Each CSS snippet can easily be highlighted for copying on click using the [CSS user-select property](https://developer.mozilla.org/en-US/docs/Web/CSS/user-select).
 
-* It's done when the page uses at least two heading elements (`<h1>` through `<h6>`).
+* Must incorporate a background color using a [CSS linear-gradient function](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient).
 
-* It's done when the header is fixed to the top of the page on scroll.
+* Must incorporate a bit of animation using the [CSS transition property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition).
 
-* It's done when the header contains a navigation bar with three links that display inline, including a contact link.
+* You and your group can decide which CSS styles and colors you will use to design the application, but the app needs to be a responsive. Use the following images to gain an understanding of how the app should look at different screen sizes, from a layout perspective:
 
-* It's done when, if the contact link is clicked, the page jumps directly to the contact form.
+  * At size 992px and above, the app should resemble the following image:
 
-* It's done when the contact form includes `input` elements for name and email.
+    ![On a desktop, the application displays three CSS code snippets per row.](./Images/01-app-desktop.png)
 
-* It's done when the contact form includes a Send button.
+  * At size 768px and above, the app should resemble the following image:
 
-* It's done when the image includes a descriptive `alt` attribute.
+    ![On a tablet, the application displays two CSS code snippets per row.](./Images/02-app-tablet.png)
 
-* It's done when the page is deployed to GitHub Pages.
+  * On mobile devices, anything under 768px, the app should resemble the following image:
 
-## Sample Page
-* The following screenshot is provided as an **example** of what you can do, but be creative! As long as you complete all of the acceptance criterions, any landing page is acceptable. 
-
-* Note: The **Coming Soon box** is an image that is provided in the `assets/image-1.png` directory. 
-
-![The landing page contains a header, footer, a main section page with an image provided to display in the middle of the screen. Some text and a Contact Me form is also included.](./assets/sample-page.png)
-
-## 💡 Notes
-
-Follow these instructions to deploy your project to GitHub Pages:
-
-1. Create a new repository on your GitHub account and clone it to your computer.
-
-2. When you're ready to deploy, use the `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
-
-3. Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
-
-4. On the Settings page, select Pages on the left side of the page. On the GitHub Pages screen, choose `main` in the dropdown under Branch. Click the Save button.
-
-5. Navigate to <your-github-username.github.io/your-repository-name> and you will find that your new webpage has gone live! For example, if your GitHub username is "lernantino" and the project is "css-demo-site", then your URL would be <lernantino.github.io/css-demo-site>.
-
-> **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an incorrect capital or lowercase letter could cause problems in deployment.
+    ![On a mobile device, the application displays one CSS code snippet per row.](./Images/03-app-mobile.png)
 
 ## 💡 Hints
 
-Refer to the documentation:
-
-* [MDN Web Docs on HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-
-* [MDN Web Docs on color](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
-
-* [MDN Web Docs on font](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
-
-* [MDN Web Docs on HTML section heading elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
-
-* [MDN Web Docs on how to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form)
-
-* [MDN Web Docs on the button element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
-
-* [MDN Web Docs on the figure element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
-
-* [Full-Stack Blog HTML Cheatsheet](https://coding-boot-camp.github.io/full-stack/html/html-cheatsheet)
+* The HTML `<pre>` element is very literal about spaces and indentation. To gain a better understanding of how to work with it, check out this article on [considerations for styling the pre tag](https://css-tricks.com/considerations-styling-pre-tag/).
 
 ## 🏆 Bonus
 
-If you have completed this activity, work through the following challenge with your group to further your knowledge:
-
-* How can CSS be used to apply a different style to an `<a>` element when a cursor points at it?
-
-Use [Google](https://www.google.com) or another search engine to research this.
+* Set this project up in your own GitHub repositories so that you can deploy and use it for future reference!
 
 ---
-
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
